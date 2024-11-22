@@ -18,7 +18,7 @@ app.use(auth);
 app.use("/api", router);
 app.use(history());
 app.use("/", express.static("./dist/SportsStore"));
-app.listen(80, () => console.log("HTTP Server running on port 80"));
+app.listen(3000, () => console.log("HTTP Server running on port 3000"));
 if (enableHttps) {
   https
     .createServer(ssloptions, app)

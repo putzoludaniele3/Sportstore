@@ -1,5 +1,10 @@
+x github:
 ng build --output-path docs --base-href /Sportstore/
 
-npm run json
+x libro:
+ng build
+node server.js
 
-ng serve 
+password:
+admin
+secret
