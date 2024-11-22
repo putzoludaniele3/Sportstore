@@ -8,3 +8,8 @@ node server.js
 password:
 admin
 secret
+
+pagina 221 installare:
+npm install --save-dev express@4.17.3
+npm install --save-dev connect-history-api-fallback@1.6.0
+npm install --save-dev https@1.0.0
